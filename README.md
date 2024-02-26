@@ -35,7 +35,22 @@ Launch the application:
 
 - View the predicted survival likelihood for the specific passenger.
 
+## Run with Docker
 
+- Run app using prebuilt image using
+  ```
+  docker pull sagardahiya/tsp
+  ```
+  ```
+  docker run -dit --network host sagardahiya/tsp:latest
+  ```
+  
+- To build your own image use
+  ```
+  docker build -t <image name>:<version>
+  ```
+
+  
 
 ## Screenshots
 
