@@ -13,7 +13,7 @@
             <label for="Pclass">Pclass:</label>
             <input type="text" id="Pclass" name="Pclass" placeholder="Enter Pclass value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Sex">Sex:</label>
             <select id="Sex" name="Sex" required>
@@ -21,27 +21,27 @@
                 <option value="Female">Female</option>
             </select>
         </div>
-    
+
         <div class="form-group">
             <label for="Age">Age:</label>
             <input type="text" id="Age" name="Age" placeholder="Enter Age value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="SibSp">SibSp:</label>
             <input type="text" id="SibSp" name="SibSp" placeholder="Enter SibSp value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Parch">Parch:</label>
             <input type="text" id="Parch" name="Parch" placeholder="Enter Parch value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Fare">Fare:</label>
             <input type="text" id="Fare" name="Fare" placeholder="Enter Fare value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Embarked">Embarked:</label>
             <select id="Embarked" name="Embarked" required>
@@ -50,12 +50,12 @@
                 <option value="Q">Q</option>
             </select>
         </div>
-    
+
         <div class="form-group">
             <input type="submit" value="Predict">
         </div>
     </form>
-    
+
     <div class="result">
         {{final_result}}
     </div>
@@ -144,9 +144,9 @@
     <form action="{{url_for('predict')}}" method="POST">
         <div class="form-group">
             <label for="Pclass">Pclass:</label>
-            <input type="text" id="Pclass" name="Pclass" placeholder="Enter Pclass value" required>
+            <input type="text" id="Pclass" name="Pclass" placeholder="1-3" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Sex">Sex:</label>
             <select id="Sex" name="Sex" required>
@@ -154,27 +154,27 @@
                 <option value="Female">Female</option>
             </select>
         </div>
-    
+
         <div class="form-group">
             <label for="Age">Age:</label>
             <input type="text" id="Age" name="Age" placeholder="Enter Age value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="SibSp">SibSp:</label>
             <input type="text" id="SibSp" name="SibSp" placeholder="Enter SibSp value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Parch">Parch:</label>
             <input type="text" id="Parch" name="Parch" placeholder="Enter Parch value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Fare">Fare:</label>
             <input type="text" id="Fare" name="Fare" placeholder="Enter Fare value" required>
         </div>
-    
+
         <div class="form-group">
             <label for="Embarked">Embarked:</label>
             <select id="Embarked" name="Embarked" required>
@@ -183,12 +183,12 @@
                 <option value="Q">Q</option>
             </select>
         </div>
-    
+
         <div class="form-group">
             <input type="submit" value="Predict">
         </div>
     </form>
-    
+
     <div class="result-box">
         {{final_result}}
     </div>
