@@ -1,5 +1,5 @@
 
-# TitanicSurvivalForecast
+# Titanic Survival Forecast
 
 Titanic Survivor Predictor is a machine learning project that predicts the likelihood of survival for passengers on the Titanic. Utilizing the Titanic dataset, the model determines whether an individual is likely to survive or not. Additionally, a user-friendly web interface is implemented using HTML, CSS, and Flask, allowing users to input passenger details and receive survival predictions.
 
