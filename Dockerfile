@@ -1,4 +1,5 @@
 FROM fedora:latest
+LABEL "maintainer"="github/Fosssil"
 RUN yum install python3 python3-pip git -y
 RUN git clone https://github.com/Fosssil/Titanic_Survival_Forecast.git
 WORKDIR /Titanic_Survival_Forecast
